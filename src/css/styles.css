@@ -10,6 +10,9 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #search-box {
@@ -17,4 +20,14 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+input {
+border: 4mm ridge rgba(173, 255, 47, 0.6);
+border-radius: 7px;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgba(255, 215, 0, 0.6);
 }
