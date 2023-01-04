@@ -7,7 +7,8 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+background-image: url("https://picsum.photos/id/825/1280");
+  background-size: cover;
   color: #212121;
   line-height: 1.5;
   display: flex;
@@ -30,4 +31,41 @@ border-radius: 7px;
 input:focus {
   outline: none;
   border-color: rgba(255, 215, 0, 0.6);
+}
+
+li {
+  list-style: none;
+}
+
+/* contry-list {
+  padding: 0;
+} */
+
+.card {
+  min-width: 320px;
+    min-height: 260px;
+    width: fit-content;
+    height: fit-content;
+    border: 3px solid;
+    border-radius: 30px;
+    background-color: lightskyblue;
+}
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.countries {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  min-width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 3px solid ;
+  border-radius: 50% 20% / 10% 40%;
+  background-color:lightskyblue;
 }
