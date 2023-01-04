@@ -23,7 +23,7 @@ body {
 }
 
 input {
-border: 4mm ridge rgba(173, 255, 47, 0.6);
+border: 3mm ridge rgba(173, 255, 47, 0.6);
 border-radius: 7px;
 }
 
