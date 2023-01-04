@@ -7,7 +7,7 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-background-image: url("https://picsum.photos/id/825/1280");
+  background-image: url("https://picsum.photos/id/825/1280");
   background-size: cover;
   color: #212121;
   line-height: 1.5;
@@ -37,15 +37,12 @@ li {
   list-style: none;
 }
 
-/* contry-list {
-  padding: 0;
-} */
-
 .card {
   min-width: 320px;
-    min-height: 260px;
+    min-height: auto;
     width: fit-content;
     height: fit-content;
+    padding: 10px;
     border: 3px solid;
     border-radius: 30px;
     background-color: lightskyblue;
